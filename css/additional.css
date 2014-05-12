@@ -1,13 +1,67 @@
 
       #greet{
-      margin-top: 100px;
+      margin-top: 95px;
+      font-family: 'Roboto Condensed', sans-serif;
       }
+
+#getFont{
+ font-family: 'Roboto Condensed', sans-serif;
+font-weight: light;
+font-size: 64px;
+}
+#getFont2{
+ font-family: 'Roboto Condensed', sans-serif;
+font-weight: bold;
+}
+
+#pcenter{
+text-align: center;
+}
+
+#by{
+margin-left: 0px;
+}
+
+#headz{
+top: 0;
+left: 0;
+padding-top: -50px;
+margin-left: 0px;
+text-align: center;
+}
 
       .line-separator{
       height:1px;
       background:#717171;
       border-bottom:1px solid #313030;
       }
+#inittext{
+margin-top: 10px;
+margin-left: 0;
+text-align: left;
+font-size: 32px;
+
+}
+
+#icn:hover{
+opacity: 0.8;
+}
+
+#adrs{
+padding-top: 10px;
+
+}
+
+#cat{
+margin-bottom: 20px;
+ font-family: 'Roboto Condensed', sans-serif;
+}
+      #row2{
+      text-align:center;
+      margin-top: 20px;
+      margin-left: -20px;
+      }
+
 
       .ptit{
       text-align:right;     
@@ -36,7 +90,15 @@
 
       #row1{
       text-align:center;
+      margin-top: 20px;
       }
+
+
+      #row3{
+      margin-left: -10px;
+      margin-top: 20px;
+      }
+
 
       #fst{
       width: 100%;
