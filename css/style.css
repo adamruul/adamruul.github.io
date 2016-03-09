@@ -1,0 +1,172 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+body {
+    background: #f5f5f5;
+    font-family: 'Source Sans Pro', sans-serif;
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+}
+
+.menu{
+    margin-top: 20px;
+}
+
+.menu > h1{
+    display: inline-block;
+    font-weight: 700;
+}
+
+.menu > h1 > a{
+    text-decoration: none;
+    color: #000;
+}
+
+.menu > ul{
+    display: inline-block;
+    list-style-type: none;
+    float: right;
+    margin-top: 32px;
+    font-family: "Helvetica", sans serif;
+    font-weight: 600;
+    font-size: 18px;
+   
+}
+
+.menu > ul li{
+    display: inline-block;
+    margin-left: 50px;
+
+}
+
+.menu > ul li a{
+    text-decoration: none;
+   
+}
+
+.tag {
+  
+  color: #555;
+  display: inline-block;
+  height: 50px;
+  line-height: 26px;
+  padding: 10px 20px 0 23px;
+  position: relative;
+  margin: 0 10px 10px 0;
+  text-decoration: none;
+  -webkit-transition: color 0.2s;
+}
+
+.tag:hover {
+  color: #DD2266;
+}
+
+
+
+.page-content{
+    margin-top: 90px;
+    
+    padding-left: 70px;
+    
+   
+}
+
+.active{
+    color: #772953;
+    
+}
+.active::before{
+    content:"> "
+}
+
+.article{
+    margin-bottom: 120px;
+    margin-right: 70px;
+}
+
+.article h2{
+    font-weight: 700;
+}
+
+.article .date{
+    margin-top: -5px;
+    margin-bottom: 20px;
+}
+
+.article p{
+    font-size: 18px;
+    text-align: justify;
+}
+
+.article .signature {
+    margin-top: 20px;
+    float: right;
+}
+
+
+.clip-text {
+  font-size: 3em;
+  font-weight: bold;
+  line-height: 1;
+  position: relative;
+  display: inline-block;
+  margin: .25em;
+  padding: .5em .75em;
+  text-align: center;
+  /* Color fallback */
+  color: #fff;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+   
+}
+
+.clip-text:before,
+.clip-text:after {
+  position: absolute;
+  content: '';
+}
+
+/* Background */
+.clip-text:before {
+  z-index: -2;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: inherit;
+}
+
+/* Text Background (black zone) */
+.clip-text:after {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  right:0;
+  bottom:0;
+  left:0;
+  background-color: #f5f5f5;
+}
+
+.clip-text_one {
+    background-image: url(https://www.ubuntu.si/wordpress/wp-content/uploads/ubuntu1504-wallpaper.png);
+    background-position: center;
+    background-size: 30%;
+}
+
+
+
+#header-colors {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 10px;
+    margin-bottom:10px;
+    width: 100%;
+    background-image:-webkit-gradient(linear,0 50%,100% 50%,color-stop(0,#772953),color-stop(12.5%,#772953),color-stop(12.5%,#CCE7C1),color-stop(25%,#CCE7C1),color-stop(25%,#333),color-stop(37.5%,#333),color-stop(37.5%,#F4F3C8),color-stop(50%,#F4F3C8),color-stop(50%,#A66D93),color-stop(62.5%,#A66D93),color-stop(62.5%,#2C001E),color-stop(75%,#2C001E),color-stop(75%,#95B2A8),color-stop(87.5%,#95B2A8),color-stop(87.5%,#333333),color-stop(100%,#333333));
+    background-image:-moz-gradient(linear,0 50%,100% 50%,color-stop(0,#e75239),color-stop(12.5%,#e75239),color-stop(12.5%,#ff961c),color-stop(25%,#ff961c),color-stop(25%,#ffcc27),color-stop(37.5%,#ffcc27),color-stop(37.5%,#fce62f),color-stop(50%,#fce62f),color-stop(50%,#cde35b),color-stop(62.5%,#cde35b),color-stop(62.5%,#82cc33),color-stop(75%,#82cc33),color-stop(75%,#41bece),color-stop(87.5%,#41bece),color-stop(87.5%,#049cdb),color-stop(100%,#049cdb));
+    background-image: gradient(linear,0 50%,100% 50%,color-stop(0,#e75239),color-stop(12.5%,#e75239),color-stop(12.5%,#ff961c),color-stop(25%,#ff961c),color-stop(25%,#ffcc27),color-stop(37.5%,#ffcc27),color-stop(37.5%,#fce62f),color-stop(50%,#fce62f),color-stop(50%,#cde35b),color-stop(62.5%,#cde35b),color-stop(62.5%,#82cc33),color-stop(75%,#82cc33),color-stop(75%,#41bece),color-stop(87.5%,#41bece),color-stop(87.5%,#049cdb),color-stop(100%,#049cdb));
+}
