@@ -11,7 +11,7 @@
 body {
     background: #fff;
    
-    font-family: 'Arimo', sans-serif;
+    font-family: 'Monsterrat', sans-serif;
     height: 100%;
     width: 100%;
     max-width: 100%;
@@ -45,7 +45,7 @@ body {
     font-weight: 600;
     text-align: center;
     margin-left: -11px;
-    font-size: 26px;
+    font-size: 1.8em;
     letter-spacing: -0px;
     position: absolute;
     
@@ -53,58 +53,8 @@ body {
 }
 
 
-.menu > h1{
-    display: inline-block;
-    font-weight: 700;
-}
-
-.menu > h1 > a{
-    text-decoration: none;
-    color: #000;
-}
-
-.menu > ul{
-    display: inline-block;
-    list-style-type: none;
-    float: right;
-    margin-top: 32px;
-    font-family: "Helvetica", sans serif;
-    font-weight: 600;
-    font-size: 18px;
-   
-}
-
-.menu > ul li{
-    display: inline-block;
-    margin-left: 50px;
-
-}
-
-.menu > ul li a{
-    text-decoration: none;
-   
-}
-
-.tag {
-  
-  color: #555;
-  display: inline-block;
-  height: 50px;
-  line-height: 26px;
-  padding: 10px 20px 0 23px;
-  position: relative;
-  margin: 0 10px 10px 0;
-  text-decoration: none;
-  -webkit-transition: color 0.2s;
-}
-
-.tag:hover {
-  color: #DD2266;
-}
-
-
 .page-content{
-    font-family: 'Arimo', sans-serif;
+    font-family: 'Monsterrat', sans-serif;
     margin-top: 60px;
     padding-left: 70px;
     margin-left: 5%;
@@ -112,92 +62,57 @@ body {
 }
 
 .page-content p{
-    font-size: 18px;
+    font-size: 1.4em;
 }
 
-
-
-#nav-toggle{
-    cursor: pointer;
-    padding: 10px 35px 16px 0px;
-    top: 1px;
-    position: absolute;
-    left: 15px
-}
-#nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
-  cursor: pointer;
-  border-radius: 1px;
-  height: 4px;
-  width: 25px;
-  background: #949494;
-  position: absolute;
-  display: block;
-  content: '';
-                                           }
-#nav-toggle:hover span, #nav-toggle:hover span:before, #nav-toggle:hover span:after {
-                                                     background: #1ebcc5;
-                                           }
-
-#nav-toggle span:before {
-  top: -8px; 
-}
-#nav-toggle span:after {
-  bottom: -8px;
-}
-
-
-
-
-.close {
-    position: absolute;
-    left: 15px;
-    top: 1px;
-  display: inline-block;
-  width: 30px;
-  height: 30px;
-  overflow: hidden;
-}
-.close:hover::before, .close:hover::after {
-  background: #e83a3a;
-}
-.close::before, .close::after {
-  content: '';
-  position: absolute;
-  height: 2px;
-  width: 100%;
-  top: 50%;
-  left: 0;
-  margin-top: -1px;
-  background: #000;
-}
-.close::before {
-  -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
-  transform: rotate(45deg);
-}
-.close::after {
-  -webkit-transform: rotate(-45deg);
-  -moz-transform: rotate(-45deg);
-  -ms-transform: rotate(-45deg);
-  -o-transform: rotate(-45deg);
-  transform: rotate(-45deg);
-}
-
-.close.black::before, .close.black::after {
-  height: 8px;
-  margin-top: -4px;
-}
-
-
-
-.page-content h1{
-    font-weight: 700;
-    font-size: 58px;
+.page-content > h1{
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: -2px;
+    font-size: 4em;
     margin-bottom: 30px;
 
 }
+
+
+
+.hamburger {
+    position: relative;
+    display: inline-block;
+    width: 28px;;
+    height: 22px;
+    margin-right: 0.3em;
+    border-top: 4px solid #333;
+    border-bottom: 4px solid #333;
+}
+
+@media(max-width:768px){
+    .hamburger{margin-top:10px;}
+}
+
+.hamburger:before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 0px;
+    width: 100%;
+    border-top: 4px solid #333;
+}
+
+#nav-toggle:hover .hamburger{
+    border-top: 4px solid #1ebcc5;
+    border-bottom: 4px solid #1ebcc5;
+}
+
+#nav-toggle:hover .hamburger:before{
+    border-top: 4px solid #1ebcc5;
+    
+}
+
+
+
+
+
 
 
 .active{
@@ -215,15 +130,17 @@ body {
 
 .article h2{
     font-weight: 700;
+    font-size: 2em;
 }
 
 .article .date{
     margin-top: -5px;
+    font-size: 1em;
     margin-bottom: 20px;
 }
 
 .article p{
-    font-size: 18px;
+    font-size: 1.3em;
     text-align: justify;
 }
 
@@ -233,56 +150,33 @@ body {
 }
 
 
-.clip-text {
-  font-size: 3em;
-  font-weight: bold;
-  line-height: 1;
-  position: relative;
-  display: inline-block;
-  margin: .25em;
-  padding: .5em .75em;
-  text-align: center;
-  /* Color fallback */
-  color: #fff;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  
+.soc-links{
    
+    bottom:0px;
+    width: 100%;
+    left: 30px;
 }
 
-.clip-text:before,
-.clip-text:after {
-  position: absolute;
-  content: '';
+.soc-icon{
+    color: blue;
+    width: 26px;
+    color: green;
+    -webkit-filter: opacity(.8);
+    filter: opacity(.8);
+    margin-right:10px;
 }
 
-/* Background */
-.clip-text:before {
-  z-index: -2;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-image: inherit;
+.soc-links a{
+    display:inline;
+    margin-right: 20px;
+    line-height: 58px;
 }
 
-/* Text Background (black zone) */
-.clip-text:after {
-  position: absolute;
-  z-index: -1;
-  top: 0;
-  right:0;
-  bottom:0;
-  left:0;
-  background-color: #f5f5f5;
+.soc-links a:hover .soc-icon{
+    -webkit-filter: opacity(1);
+     filter: opacity(1);
+ 
 }
-
-.clip-text_one {
-    background-image: url(https://www.ubuntu.si/wordpress/wp-content/uploads/ubuntu1504-wallpaper.png);
-    background-position: center;
-    background-size: 30%;
-}
-
 
 
 #header-colors {

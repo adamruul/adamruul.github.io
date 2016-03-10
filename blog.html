@@ -6,10 +6,11 @@
 	<title>/adamruul/</title>
         <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,900' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Arimo:400,700' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="css/bootstrap.min.css"/>
-        <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+        
         <link href="css/simple-sidebar.css" rel="stylesheet">        
-
+        <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
       
       
     </head>
@@ -42,8 +43,18 @@
                     <li>
                         <a href="/contact">Contact</a>
                     </li>
-                    
+
+                    <div class="soc-links">
+                    <li>                    
+                    <a href="#"><img class="soc-icon" src="img/github.png">GitHub</a>
+                    <a href="#"><img class="soc-icon" src="img/linkedin.png">LinkedIn</a>
+                    <a href="#"><img class="soc-icon" src="img/twitter.png">Twitter</a>
+                    <a href="#"><img class="soc-icon" src="img/youtube.png">YouTube</a>
+                    </li>
+                    </li>
                 </ul>
+
+         
             </div>
             <!-- /#sidebar-wrapper -->
 
@@ -57,17 +68,40 @@
                     
                     <div class="row">
                         <div class="col-md-12">
+
+                            <a href="#" id="nav-toggle"><span class="hamburger"></span></a>
                             <div class="page-content">
-                                <a href="#" id="close"><span class="close black"></span></a>
-                                <a id="nav-toggle" href="#"><span></span></a>
+                              
+                                
                                
                                     
                                 <h1>Blog</h1>
                                 <hr>
 
+                                <p><b><i>Coming Soon!</i></b>
+                                </p>
 
-                                <p><i>Coming Soon!</i>
+
+                                <div class="article">
+                                    <h2>Example post</h2>
+                                    <div class="date">2016-03-10</div>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam luctus bibendum tellus pulvinar ullamcorper. Nullam euismod orci eget magna convallis, ut vehicula purus pretium. Mauris vehicula orci leo, et molestie augue pellentesque quis. Proin quis felis quis enim congue tempor eu eget turpis. Proin non nulla eu tellus sagittis porta. Aenean eget tempus augue.
   </p>
+                                </div>
+
+
+
+
+                                <div class="article">
+                                    <h2>Example post</h2>
+                                    <div class="date">2016-03-10</div>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam luctus bibendum tellus pulvinar ullamcorper. Nullam euismod orci eget magna convallis, ut vehicula purus pretium. Mauris vehicula orci leo, et molestie augue pellentesque quis. Proin quis felis quis enim congue tempor eu eget turpis. Proin non nulla eu tellus sagittis porta. Aenean eget tempus augue.
+                                    </p>
+                                </div>
+
+
+
+                                
                            
                         </div>
                         </div>
@@ -90,25 +124,16 @@
         <script src="js/bootstrap.min.js"></script>
         <!-- Menu Toggle Script -->
         <script>
-         $( document ).ready(function() {
-             $("#nav-toggle").hide();
-         });
+       
          
          $("#nav-toggle").click(function(e) {
              e.preventDefault();
              $("#wrapper").toggleClass("toggled");
-             $("#nav-toggle").hide();
-             $("#close").show();
+       
              
          });
 
-         $("#close").click(function(e) {
-             e.preventDefault();
-             $("#wrapper").toggleClass("toggled");
-             $("#close").hide();
-             $("#nav-toggle").show();
-             
-         });
+       
 
          
             </script>
