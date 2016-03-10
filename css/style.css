@@ -88,7 +88,14 @@ body {
 
 @media(max-width:768px){
     .hamburger{margin-top:10px;}
+    .page-content{margin-right: 0;margin-left:0;}
+  
+
+
 }
+
+
+
 
 .hamburger:before {
     content: "";
@@ -142,6 +149,13 @@ body {
 .article p{
     font-size: 1.3em;
     text-align: justify;
+}
+
+@media(max-width:768px){
+   
+    .article p{font-size: 0.9em; text-align:left;}
+    .article{margin-right:0px;}
+    .page-content{margin-left:-40px;}
 }
 
 .article .signature {
