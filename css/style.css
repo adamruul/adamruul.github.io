@@ -20,6 +20,9 @@ body {
 .menu{
     margin-top: 20px;
 }
+ul{
+    margin-left:20px;
+}
 
 #side-box{
     background: #ffffff;
@@ -62,14 +65,14 @@ body {
 }
 
 .page-content p{
-    font-size: 1.4em;
+    font-size: 1.2em;
 }
 
 .page-content > h1{
     text-transform: uppercase;
     font-weight: 800;
     letter-spacing: -2px;
-    font-size: 4em;
+    font-size: 3em;
     margin-bottom: 30px;
 
 }
