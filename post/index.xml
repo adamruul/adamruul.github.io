@@ -34,6 +34,8 @@
 &lt;p&gt;To the left you can see the system in action, In the middle we have the transmitting node, and to the right we have the receiving node.&lt;/p&gt;
 
 &lt;p&gt;In the video below, we can see the transmitter first idling for a while, before sending a initialization sequence (1,0,0,0,0,0,0,1) followed by the message &amp;ldquo;Hej&amp;rdquo;, and finally send an end-transmission sequence (0,0,0,0,0,1,0,0)&lt;/p&gt;
+
+&lt;iframe width=&#34;100%&#34; height=&#34;400px&#34; src=&#34;https://www.youtube.com/embed/pYIxn5YdeSc&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
 </description>
     </item>
     
