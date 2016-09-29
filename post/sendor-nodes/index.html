@@ -1,11 +1,10 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html>
 
 <head>
-	<meta name="generator" content="Hugo 0.16" />
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-<title> /Adam Ruul &middot; /Adam Ruul </title>
+<title> Communicating To Sensor Nodes Using Controlled Temperature Changes &middot; /Adam Ruul </title>
 
 
 <link rel="stylesheet" href="http://replace-this-with-your-hugo-site.com/css/slim.css">
@@ -16,7 +15,7 @@
 <link rel="shortcut icon" href="/favicon.ico">
 
 
-<link href="http://replace-this-with-your-hugo-site.com/index.xml" rel="alternate" type="application/rss+xml" title="/Adam Ruul" />
+<link href="" rel="alternate" type="application/rss+xml" title="/Adam Ruul" />
 
 </head>
 
@@ -40,26 +39,38 @@
 </div>
     <div class="content">
       <div class="posts">
-         
         <div class="post">
           <h2 class="post-title"><a href="http://replace-this-with-your-hugo-site.com/post/sendor-nodes/">Communicating To Sensor Nodes Using Controlled Temperature Changes</a></h2>
-          <span class="post-date">Sep 29, 2016</span>
-		  
-		  
+          <span class="post-date">Sep 29, 2016 </span>
+          <div class="post-content">
+            
+
+<p>This project is a prototype used for investigating the feasibility of communicating with sensor nodes using controlled temperature fluctuations. Using temperature fluctuations for wireless communication, could potentially have multiple benefits. Compared to electromagnetic waves, temperature fluctuations could provide more secure wireless communication. Also, temperature fluctuation-based communication could enable devices without hardware for wireless communication for the IoT. The prototype system is capable of sending bytes using temperature fluctuations that will be interpreted as ASCII-characters, at a rate of 0.25 bit/s and at a distance of 2 meters (without any bit errors).</p>
+
+<p>The prototype system consist of:</p>
+
+<ul>
+<li>Genuino 101 board</li>
+<li>Beurer IL 11 Infrared lamp</li>
+<li>Everspring dimmer (a ZWave based dimmer)</li>
+<li>Aeotec Z-Stick Series 2 (a dongle for communicating with the dimmer)</li>
+<li>Adafruit BMP280- temperature sensor</li>
+</ul>
+
+<h2 id="demo-video">Demo Video</h2>
+
+<p>To the left you can see the system in action, In the middle we have the transmitting node, and to the right we have the receiving node.</p>
+
+<p>In the video below, we can see the transmitter first idling for a while, before sending a initialization sequence (1,0,0,0,0,0,0,1) followed by the message &ldquo;Hej&rdquo;, and finally send an end-transmission sequence (0,0,0,0,0,1,0,0)</p>
+
+          </div>
         </div>
-        
-        <div class="post">
-          <h2 class="post-title"><a href="http://replace-this-with-your-hugo-site.com/post/welcome/">welcome</a></h2>
-          <span class="post-date">Sep 29, 2016</span>
-		  
-		  
+        <div class="pagination"> 
+          <a class="btn next " href="http://replace-this-with-your-hugo-site.com/post/welcome/"> Next</a> 
         </div>
-        
       </div>
-      <div class="pagination">
-   
-</div>
     </div>
+    
     <div class="footer">
   
   <p>Hello.</p>
@@ -68,6 +79,10 @@
 
   </div>
   <script src="http://replace-this-with-your-hugo-site.com/js/slim.js"></script>
+  <script src="http://replace-this-with-your-hugo-site.com/js/highlight.min.js"></script>
+  <script>
+    hljs.initHighlightingOnLoad();
+  </script>
   <script>
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -78,7 +93,6 @@ ga('create', 'Your Google Analytics tracking code', 'auto');
 ga('send', 'pageview');
 
 </script>
-
 
 </body>
 
