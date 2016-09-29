@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>/Adam Ruul</title>
-    <link>http://replace-this-with-your-hugo-site.com/</link>
+    <link>https://adamruul.github.io/</link>
     <description>Recent content on /Adam Ruul</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 29 Sep 2016 20:14:20 +0200</lastBuildDate>
-    <atom:link href="http://replace-this-with-your-hugo-site.com/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://adamruul.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Communicating To Sensor Nodes Using Controlled Temperature Changes</title>
-      <link>http://replace-this-with-your-hugo-site.com/post/sendor-nodes/</link>
+      <link>https://adamruul.github.io/post/sendor-nodes/</link>
       <pubDate>Thu, 29 Sep 2016 20:14:20 +0200</pubDate>
       
-      <guid>http://replace-this-with-your-hugo-site.com/post/sendor-nodes/</guid>
+      <guid>https://adamruul.github.io/post/sendor-nodes/</guid>
       <description>
 
 &lt;p&gt;This project is a prototype used for investigating the feasibility of communicating with sensor nodes using controlled temperature fluctuations. Using temperature fluctuations for wireless communication, could potentially have multiple benefits. Compared to electromagnetic waves, temperature fluctuations could provide more secure wireless communication. Also, temperature fluctuation-based communication could enable devices without hardware for wireless communication for the IoT. The prototype system is capable of sending bytes using temperature fluctuations that will be interpreted as ASCII-characters, at a rate of 0.25 bit/s and at a distance of 2 meters (without any bit errors).&lt;/p&gt;
@@ -39,10 +39,10 @@
     
     <item>
       <title>welcome</title>
-      <link>http://replace-this-with-your-hugo-site.com/post/welcome/</link>
+      <link>https://adamruul.github.io/post/welcome/</link>
       <pubDate>Thu, 29 Sep 2016 20:08:47 +0200</pubDate>
       
-      <guid>http://replace-this-with-your-hugo-site.com/post/welcome/</guid>
+      <guid>https://adamruul.github.io/post/welcome/</guid>
       <description>&lt;p&gt;HELLO MY FRIENDS
 &lt;div class=&#34;highlight&#34; style=&#34;background: #ffffff&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span style=&#34;color: #000000&#34;&gt;startNumber&lt;/span&gt; &lt;span style=&#34;color: #000000&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color: #A90D91&#34;&gt;int&lt;/span&gt;(&lt;span style=&#34;color: #A90D91&#34;&gt;raw_input&lt;/span&gt;(&lt;span style=&#34;color: #C41A16&#34;&gt;&amp;quot;Enter the start number here &amp;quot;&lt;/span&gt;))
 &lt;span style=&#34;color: #000000&#34;&gt;endNumber&lt;/span&gt; &lt;span style=&#34;color: #000000&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color: #A90D91&#34;&gt;int&lt;/span&gt;(&lt;span style=&#34;color: #A90D91&#34;&gt;raw_input&lt;/span&gt;(&lt;span style=&#34;color: #C41A16&#34;&gt;&amp;quot;Enter the end number here &amp;quot;&lt;/span&gt;))
