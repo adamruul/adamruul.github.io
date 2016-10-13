@@ -44,7 +44,7 @@
           <div class="post-content">
             
 
-<p>This project is a prototype used for investigating the feasibility of communicating with sensor nodes using controlled temperature fluctuations. Using temperature fluctuations for wireless communication, could potentially have multiple benefits. Compared to electromagnetic waves, temperature fluctuations could provide more secure wireless communication. Also, temperature fluctuation-based communication could enable devices without hardware for wireless communication for the IoT. The prototype system is capable of sending bytes using temperature fluctuations that will be interpreted as ASCII-characters, at a rate of 0.25 bit/s and at a distance of 2 meters (without any bit errors).</p>
+<p>This project is a prototype used for investigating the feasibility of communicating with sensor nodes using controlled temperature fluctuations. Using temperature fluctuations for wireless communication, could potentially have multiple benefits. Compared to electromagnetic waves, temperature fluctuations could provide more secure wireless communication. Also, temperature fluctuation-based communication could enable devices without hardware for wireless communication for the IoT. The prototype system is capable of sending bytes using temperature fluctuations that will be interpreted as ASCII-characters, at a rate of 0.25 bit/s and at a distance of 2 meters (without any bit errors). The low bitrate is mostly due to limitations of how fast the lamp could be dimmed.</p>
 
 <p>The prototype system consist of:</p>
 
@@ -52,15 +52,15 @@
 <li>Genuino 101 board</li>
 <li>Beurer IL 11 Infrared lamp</li>
 <li>Everspring dimmer (a ZWave based dimmer)</li>
-<li>Aeotec Z-Stick Series 2 (a dongle for communicating with the dimmer)</li>
-<li>Adafruit BMP280- temperature sensor</li>
+<li>Aeotec Z-Stick Series 2 (a dongle used for communicating with the dimmer)</li>
+<li>Adafruit BMP280-temperature sensor</li>
 </ul>
 
 <h2 id="demo-video">Demo Video</h2>
 
-<p>To the left you can see the system in action, In the middle we have the transmitting node, and to the right we have the receiving node.</p>
+<p>To the left you can see the system in action, In the middle you can see the terminal for the transmitting node, and to the right we have the console for the receiving node.</p>
 
-<p>In the video below, we can see the transmitter first idling for a while, before sending a initialization sequence (1,0,0,0,0,0,0,1) followed by the message &ldquo;Hej&rdquo;, and finally send an end-transmission sequence (0,0,0,0,0,1,0,0)</p>
+<p>In the video below, we can see the transmitter first idling for a while, before sending a initialization sequence <code>1,0,0,0,0,0,0,1</code> followed by the message <code>&quot;Hej&quot;</code>, and finally send an end-transmission sequence <code>0,0,0,0,0,1,0,0</code></p>
 
 <iframe width="100%" height="400px" src="https://www.youtube.com/embed/pYIxn5YdeSc" frameborder="0" allowfullscreen></iframe>
 
