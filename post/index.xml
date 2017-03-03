@@ -5,12 +5,12 @@
     <link>https://adamruul.github.io/post/</link>
     <description>Recent content in Posts on /Adam Ruul</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en</language>
     <lastBuildDate>Thu, 29 Sep 2016 20:14:20 +0200</lastBuildDate>
     <atom:link href="https://adamruul.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Communicating To Sensor Nodes Using Controlled Temperature Changes</title>
+      <title>Temperature-based Wireless Communication</title>
       <link>https://adamruul.github.io/post/sendor-nodes/</link>
       <pubDate>Thu, 29 Sep 2016 20:14:20 +0200</pubDate>
       
@@ -36,27 +36,6 @@
 &lt;p&gt;In the video below, we can see the transmitter first idling for a while, before sending a initialization sequence &lt;code&gt;1,0,0,0,0,0,0,1&lt;/code&gt; followed by the message &lt;code&gt;&amp;quot;Hej&amp;quot;&lt;/code&gt;, and finally send an end-transmission sequence &lt;code&gt;0,0,0,0,0,1,0,0&lt;/code&gt;&lt;/p&gt;
 
 &lt;iframe width=&#34;100%&#34; height=&#34;400px&#34; src=&#34;https://www.youtube.com/embed/pYIxn5YdeSc&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>welcome</title>
-      <link>https://adamruul.github.io/post/welcome/</link>
-      <pubDate>Thu, 29 Sep 2016 20:08:47 +0200</pubDate>
-      
-      <guid>https://adamruul.github.io/post/welcome/</guid>
-      <description>&lt;p&gt;HELLO MY FRIENDS
-&lt;div class=&#34;highlight&#34; style=&#34;background: #ffffff&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span style=&#34;color: #000000&#34;&gt;startNumber&lt;/span&gt; &lt;span style=&#34;color: #000000&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color: #A90D91&#34;&gt;int&lt;/span&gt;(&lt;span style=&#34;color: #A90D91&#34;&gt;raw_input&lt;/span&gt;(&lt;span style=&#34;color: #C41A16&#34;&gt;&amp;quot;Enter the start number here &amp;quot;&lt;/span&gt;))
-&lt;span style=&#34;color: #000000&#34;&gt;endNumber&lt;/span&gt; &lt;span style=&#34;color: #000000&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color: #A90D91&#34;&gt;int&lt;/span&gt;(&lt;span style=&#34;color: #A90D91&#34;&gt;raw_input&lt;/span&gt;(&lt;span style=&#34;color: #C41A16&#34;&gt;&amp;quot;Enter the end number here &amp;quot;&lt;/span&gt;))
-
-&lt;span style=&#34;color: #A90D91&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color: #000000&#34;&gt;fib&lt;/span&gt;(&lt;span style=&#34;color: #000000&#34;&gt;n&lt;/span&gt;):
-    &lt;span style=&#34;color: #A90D91&#34;&gt;if&lt;/span&gt; &lt;span style=&#34;color: #000000&#34;&gt;n&lt;/span&gt; &lt;span style=&#34;color: #000000&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span style=&#34;color: #1C01CE&#34;&gt;2&lt;/span&gt;:
-        &lt;span style=&#34;color: #A90D91&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color: #000000&#34;&gt;n&lt;/span&gt;
-    &lt;span style=&#34;color: #A90D91&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color: #000000&#34;&gt;fib&lt;/span&gt;(&lt;span style=&#34;color: #000000&#34;&gt;n-&lt;/span&gt;&lt;span style=&#34;color: #1C01CE&#34;&gt;2&lt;/span&gt;) &lt;span style=&#34;color: #000000&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color: #000000&#34;&gt;fib&lt;/span&gt;(&lt;span style=&#34;color: #000000&#34;&gt;n-&lt;/span&gt;&lt;span style=&#34;color: #1C01CE&#34;&gt;1&lt;/span&gt;)
-
-&lt;span style=&#34;color: #A90D91&#34;&gt;print&lt;/span&gt; &lt;span style=&#34;color: #A90D91&#34;&gt;map&lt;/span&gt;(&lt;span style=&#34;color: #000000&#34;&gt;fib&lt;/span&gt;, &lt;span style=&#34;color: #A90D91&#34;&gt;range&lt;/span&gt;(&lt;span style=&#34;color: #000000&#34;&gt;startNumber&lt;/span&gt;, &lt;span style=&#34;color: #000000&#34;&gt;endNumber&lt;/span&gt;))
-&lt;/pre&gt;&lt;/div&gt;
-&lt;/p&gt;
 </description>
     </item>
     
