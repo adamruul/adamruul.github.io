@@ -71,7 +71,7 @@
 
 <h2 id="introduction">Introduction</h2>
 
-<p>Lately, I&rsquo;ve been getting into the world of Erlang. To sharpen my skills, I tried solving two of the <a href="https://labs.spotify.com/puzzles/">puzzles posted by Spotify Labs</a>.</p>
+<p>Lately, I&rsquo;ve been freshening up on my forgotten Erlang skills. To do so, I tried solving two of the <a href="https://labs.spotify.com/puzzles/">puzzles posted by Spotify Labs</a>.</p>
 
 <p>The source code for the solutions can be found in this <a href="https://github.com/adamruul/Spotify_Puzzles">repository</a>. The solutions does not support the stdin/stdout requierment that was stated, nor is Erlang a valid language to officially submit a solution in. I solved the puzzles mostly because they are great puzzles to solve when trying to learn a new language (Erlang in my case).</p>
 
@@ -142,7 +142,7 @@ Score(Track n) = NR_PLAYS(Track n) * n
 
 <div class="highlight" style="background: #ffffff"><pre style="line-height: 125%"><span></span><span style="color: #000000">zipf_prop</span>(<span style="color: #000000">List</span>) <span style="color: #000000">-&gt;</span>
 	<span style="color: #000000">Indexed</span> <span style="color: #000000">=</span> [{<span style="color: #000000">lists</span>:<span style="color: #000000">nth</span>(<span style="color: #000000">C</span>,<span style="color: #000000">List</span>),<span style="color: #000000">C</span>} || <span style="color: #000000">C</span> <span style="color: #000000">&lt;-</span> <span style="color: #000000">lists</span>:<span style="color: #000000">seq</span>(<span style="color: #1C01CE">1</span>,<span style="color: #A90D91">length</span>(<span style="color: #000000">List</span>))],
-    [{<span style="color: #000000">I</span>,<span style="color: #000000">Tr</span>} || {{_,<span style="color: #000000">Tr</span>},<span style="color: #000000">I</span>} <span style="color: #000000">&lt;-</span> <span style="color: #000000">Indexed</span>].
+	[{<span style="color: #000000">I</span>,<span style="color: #000000">Tr</span>} || {{_,<span style="color: #000000">Tr</span>},<span style="color: #000000">I</span>} <span style="color: #000000">&lt;-</span> <span style="color: #000000">Indexed</span>].
 
 <span style="color: #000000">zipf_songs</span>(<span style="color: #000000">Album</span>,<span style="color: #000000">N</span>,<span style="color: #000000">M</span>) <span style="color: #000000">-&gt;</span>
 	<span style="color: #000000">S</span> <span style="color: #000000">=</span> <span style="color: #000000">lists</span>:<span style="color: #000000">zip</span>(<span style="color: #000000">Album</span>,<span style="color: #000000">zipf_prop</span>(<span style="color: #000000">Album</span>)), <span style="color: #177500">% add index to each track</span>
