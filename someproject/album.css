@@ -1,0 +1,156 @@
+html{
+background-color:#3c4146!important;
+}
+body {
+  min-height: 75rem; /* Can be removed; just added for demo purposes */
+background:#f7f7f7;
+color: #666666;
+}
+
+h1,h2,h3{
+color: #555;
+}
+
+.bg-inverse{
+background-color:#3c4146!important;
+}
+.navbar {
+  margin-bottom: 0;
+}
+
+.jumbotron {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  margin-bottom: 0;
+  background-color: #f7f7f7;
+}
+ul .nav-item{
+margin-left:15px;
+}
+
+#logo{
+height: 150px;
+width: 150px;
+margin-bottom: 20px;
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron-heading {
+  font-weight: 300;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+}
+
+
+
+.card h3{
+font-size:90%;
+margin-top: 10px;
+}
+.card-text{
+font-size: 80%;
+margin:20px;
+}
+
+.album {
+ 
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: #f7f7f7;
+}
+
+.card {
+  float: left;
+  width: 33.333%;
+  padding: .75rem;
+  margin-bottom: 2rem;
+  border: 0;
+   background-color: #f7f7f7; 
+}
+
+.card > img {
+  margin-bottom: .75rem;
+}
+
+.card-text {
+  font-size: 85%;
+}
+
+.card-block{
+background-color:white;
+border: 1px solid #f0f0f0;
+}
+
+footer {
+background-color:#3c4146;
+color: #999;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+pre.prettyprint{
+
+border: 1px solid #eee;
+background:white;
+padding-left:20px;
+height:100%;
+width:100%;
+}
+
+footer p {
+  margin-bottom: .25rem;
+}
+.navbar-brand{
+font-weight:600;
+}
+
+
+/*
+@media (max-width: 991px){
+.navbar .container{width:100%;}
+}
+*/
+.btn-secondary{
+background: #eee;
+width:250px;
+display:block;
+margin-bottom: 12px;
+font-size: 0.85em;
+font-weight:500;
+}
+a:hover{
+text-decoration:none;
+}
+.btn-secondary:hover{
+cursor:pointer;
+text-decoration:none;
+}
+.btn-secondary .fa{
+margin-top:0px;
+font-size:1.3em;
+float:left;
+}
+
+
+.social-nav i:hover{
+color: #999;
+}
+
+footer a{
+color:#55b7f4;
+}
+footer a:hover{
+color: #448dba;
+text-decoration: none;
+}
+
+.mega{
+margin-left:10px;
+margin-right: 10px;
+
+}
