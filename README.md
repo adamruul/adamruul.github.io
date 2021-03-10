@@ -1,5 +1,7 @@
-Site is under construction!!!
+adamruul.github.io
 ==================
+
+> Personal website for misc. things
 
 ## Writing a new post
 
@@ -7,7 +9,3 @@ Site is under construction!!!
 * Write your post
 * Export as -> Styled HTML
 * Add the HTML file to `post/`
-
-
-[adamruul.github.io](https://adamruul.github.io/)
-
