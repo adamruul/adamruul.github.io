@@ -9,7 +9,7 @@ The website is built using [Hugo](https://gohugo.io/) (with the [Blowfish theme]
 
 ## Deployment
 
-The deployment is handled via a GitHub Action. The action that is triggered on changes to the `master` branch.
+The deployment is handled via a GitHub Action. The deployment action is automatically triggered on changes to the `master` branch.
 
 
 ## Obsidian Integration
