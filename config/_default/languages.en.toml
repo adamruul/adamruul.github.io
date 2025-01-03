@@ -13,6 +13,7 @@ title = "adamruul.github.io"
   #secondaryLogo = "img/author_transparent.png"
   # description = "My awesome website"
   # copyright = "Copy, _right?_ :thinking_face:"
+  favicon = "img/favicon.ico"
 
  [params.author]
    name = "Adam Ruul"
