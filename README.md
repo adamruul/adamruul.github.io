@@ -2,6 +2,10 @@
 
 Personal website used for various things. The website is built using [Hugo](https://gohugo.io/) (with the [Blowfish theme](https://github.com/nunocoracao/blowfish))
 
+## Prerequisites
+In order to build the website locally you need to have [Hugo](https://gohugo.io/installation) installed.
+
+
 ## Deployment
 
 The deployment is handled via a GitHub Action. The deployment action is automatically triggered on changes to the `master` branch.
