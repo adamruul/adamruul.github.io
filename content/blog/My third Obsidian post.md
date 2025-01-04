@@ -3,7 +3,6 @@ share: true
 title: My third Obsidian post!
 description: This time with extended metadata.
 date: 2025-01-04
-layout: simple
 showTableOfContents: false
 showHero: false
 showReadingTime: true
