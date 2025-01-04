@@ -1,4 +1,4 @@
-# :globe_with_meridians: **`adamruul.github.io`**
+# :globe_with_meridians: [**`adamruul.github.io`**](https://adamruul.github.io/)
 
 Personal website used for various things. The website is built using [Hugo](https://gohugo.io/) (with the [Blowfish theme](https://github.com/nunocoracao/blowfish))
 
